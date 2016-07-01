@@ -1,0 +1,6 @@
+jQuery(function(){
+	  // 如果父页面是加载页面
+	  if(parent._pageType_=="loadPage"){
+		  parent.initWindow(window);
+	  }
+	});
